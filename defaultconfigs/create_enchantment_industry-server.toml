@@ -12,7 +12,7 @@ copierTankCapacity = 4000
 #The Tank Capacity of the Blaze Enchanter
 #[@cui:RequiresReload:server]
 #Range: > 0
-blazeEnchanterTankCapacity = 2000
+blazeEnchanterTankCapacity = 4000
 #.
 #The Maximum Extended Levels beyond Enchantment's Max Level that can be reached through Hyper-Enchanting
 #Range: > 0
