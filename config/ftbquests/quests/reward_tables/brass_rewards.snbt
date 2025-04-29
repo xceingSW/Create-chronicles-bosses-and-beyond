@@ -5,16 +5,16 @@
 	loot_size: 1
 	order_index: 1
 	rewards: [
-		{ item: "tfmg:brass_smart_fluid_pipe" }
-		{ item: "create:content_observer" }
-		{ item: "create:smart_chute" }
-		{ item: "create:elevator_pulley" }
-		{ item: "create:brass_tunnel" }
-		{ item: "create:brass_funnel" }
+		{ count: 2, item: "tfmg:brass_smart_fluid_pipe" }
+		{ count: 2, item: "create:content_observer" }
+		{ count: 2, item: "create:smart_chute" }
+		{ count: 2, item: "create:elevator_pulley" }
+		{ count: 4, item: "create:brass_tunnel" }
+		{ count: 4, item: "create:brass_funnel" }
 		{ item: "create_connected:brass_gearbox" }
 		{ item: "create:mechanical_arm" }
-		{ item: "create:mechanical_crafter" }
-		{ item: "create:redstone_link" }
+		{ count: 3, item: "create:mechanical_crafter" }
+		{ count: 4, item: "create:redstone_link" }
 		{ item: "create_dd:accelerator_motor" }
 	]
 	title: "Brass Rewards"
