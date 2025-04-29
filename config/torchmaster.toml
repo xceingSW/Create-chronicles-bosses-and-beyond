@@ -21,7 +21,7 @@
 	#Note: Each entry needs to be put in quotes! Multiple Entries should be separated by comma.
 	#Block zombies: "+minecraft:zombie"
 	#Allow creepers: "-minecraft:creeper"
-	megaTorchEntityBlockListOverrides = []
+	megaTorchEntityBlockListOverrides = ["alexsmobs:fly"]
 	#Same as the mega torch block list override, just for the dread lamp
 	#Block squid: +minecraft:squid
 	#Allow pigs: -minecraft:pig
