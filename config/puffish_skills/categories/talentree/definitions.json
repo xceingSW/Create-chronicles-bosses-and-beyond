@@ -1515,7 +1515,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "attributeslib:experience_gained",
-					"value": 0.02,
+					"value": 0.20,
 					"operation": "multiply_base"
 				}
 			}
