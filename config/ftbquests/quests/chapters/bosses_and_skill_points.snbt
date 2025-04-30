@@ -3200,7 +3200,44 @@
 			x: -21.9d
 			y: 8.7d
 		}
-
+		{
+			description: ["Found in the candy cavity"]
+			id: "3C16830A691861DF"
+			rewards: [
+				{
+					id: "5680A91CE0730095"
+					item: "kubejs:skill_add_point"
+					type: "item"
+				}
+				{
+					id: "1F3D8411563F764E"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "alexscaves:gum_worm"
+				icon: {
+					Count: 1
+					id: "obtrophies:trophy"
+					tag: {
+						BlockEntityTag: {
+							VariantID: 0
+							entity: "alexscaves:gum_worm"
+						}
+					}
+				}
+				id: "27D76466FC8FB3A7"
+				title: "Gum worm"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Gum worm"
+			x: -5.4d
+			y: 7.6d
+		}
 	]
 	title: "&9&lBosses and Skill Points"
 }
