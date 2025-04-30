@@ -3172,6 +3172,35 @@
 			x: -3.4d
 			y: 4.6d
 		}
+		{
+			description: ["Rarely found in &6caves&r."]
+			id: "1BBBCE3733F68A9D"
+			rewards: [
+				{
+					id: "77408967715EAA7A"
+					item: "kubejs:skill_add_point"
+					type: "item"
+				}
+				{
+					id: "76FD1690595B56E6"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "iceandfire:troll"
+				icon: "iceandfire:troll_skull"
+				id: "5E6FD64FC84CE9BA"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Overworld&f: Troll"
+			x: -21.9d
+			y: 8.7d
+		}
+
 	]
 	title: "&9&lBosses and Skill Points"
 }
