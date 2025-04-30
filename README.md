@@ -11,6 +11,7 @@ These modifications will make:
 - Allow lvl 10 enchantments in blaze enchanter
 - Remove Chalk and Ars Tomes from loot table
 - Add some extra performence mods because I play on a potato
+- Seagull no longer eat artifact food
 
 I will not provide support of any kind and you shouldn't expect the original creators to do so too.
 
