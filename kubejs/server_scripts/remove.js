@@ -176,7 +176,9 @@ ServerEvents.recipes(event => {
        'create:filling/gunpowder',
 
        CRDD('crafting/stargaze_singularity_from_block'),
-       CRDD('deploying/infablock/stargaze')
+       CRDD('deploying/infablock/stargaze'),
+
+        'simplyswords:sword_on_a_stick'
     ].forEach((recipeID) => event.remove({id: recipeID}));
 
     //Remove all recipes an item is related to. For example putting 'minecraft:bonemeal' here would remove the recipe for bone blocks as well.
