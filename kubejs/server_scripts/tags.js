@@ -38,6 +38,25 @@ ServerEvents.tags("entity_type", (event) => {
 });
 
 ServerEvents.tags("entity_type", (event) => {
+     event.add("forge:bosses", [
+        "bosses_of_mass_destruction:void_blossom",
+        "bosses_of_mass_destruction:obsidilith",
+        "bosses_of_mass_destruction:gauntlet",
+        "bosses_of_mass_destruction:lich",
+        "alexsmobs:void_worm",
+        
+        "mowziesmobs:ferrous_wroughtnaut",
+        "mowziesmobs:frostmaw",
+        
+        "irons_spellbooks:dead_king",
+
+        "blue_skies:alchemist",
+        "blue_skies:summoner",
+        "blue_skies:arachnarch",
+        "blue_skies:starlit_crusher"
+
+    
+    ]);
     event.add("forbidden_arcanus:quantum_catcher_blacklisted", ["#forge:bosses","iceandfire:lightning_dragon","iceandfire:fire_dragon","iceandfire:ice_dragon"]);
     event.add('ad_astra:entities/lives_without_oxygen', [
         'iceandfire:lightning_dragon',
