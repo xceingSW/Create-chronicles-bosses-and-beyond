@@ -53,8 +53,9 @@ ServerEvents.tags("entity_type", (event) => {
         "blue_skies:alchemist",
         "blue_skies:summoner",
         "blue_skies:arachnarch",
-        "blue_skies:starlit_crusher"
+        "blue_skies:starlit_crusher",
 
+         "graveyard:lich"
     
     ]);
     event.add("forbidden_arcanus:quantum_catcher_blacklisted", ["#forge:bosses","iceandfire:lightning_dragon","iceandfire:fire_dragon","iceandfire:ice_dragon"]);
