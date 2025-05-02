@@ -559,10 +559,10 @@
 		School = "irons_spellbooks:ender"
 		MaxLevel = 3
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "UNCOMMON"
+		MinRarity = "EPIC"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 180.0
+		CooldownInSeconds = 360.0
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:black_hole"]
