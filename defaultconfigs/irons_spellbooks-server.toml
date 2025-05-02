@@ -71,7 +71,7 @@
 		School = "irons_spellbooks:fire"
 		MaxLevel = 8
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
+		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 1.5
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 120.0
@@ -215,7 +215,7 @@
 		School = "irons_spellbooks:nature"
 		MaxLevel = 5
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
+		MinRarity = "EPIC"
 		ManaCostMultiplier = 1.7
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 35.0
@@ -303,7 +303,7 @@
 		School = "irons_spellbooks:nature"
 		MaxLevel = 5
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
+		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 1.5
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 90.0
@@ -1091,7 +1091,7 @@
 		School = "irons_spellbooks:lightning"
 		MaxLevel = 3
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "RARE"
+		MinRarity = "EPIC"
 		ManaCostMultiplier = 2.7
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 40.0
