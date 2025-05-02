@@ -759,7 +759,7 @@
 		School = "irons_spellbooks:holy"
 		MaxLevel = 10
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
+		MinRarity = "RARE"
 		ManaCostMultiplier = 2.5
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 25.0
@@ -771,7 +771,7 @@
 		MaxLevel = 10
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
-		ManaCostMultiplier = 2.0
+		ManaCostMultiplier = 1.3
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 10.0
 		AllowCrafting = true
@@ -781,8 +781,8 @@
 		School = "irons_spellbooks:holy"
 		MaxLevel = 5
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "EPIC"
-		ManaCostMultiplier = 2.0
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 3.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 120.0
 		AllowCrafting = true
@@ -803,7 +803,7 @@
 		School = "irons_spellbooks:holy"
 		MaxLevel = 10
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
+		MinRarity = "EPIC"
 		ManaCostMultiplier = 3.5
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 35.0
@@ -825,7 +825,7 @@
 		School = "irons_spellbooks:holy"
 		MaxLevel = 10
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
+		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 1.6
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 25.0
@@ -836,7 +836,7 @@
 		School = "irons_spellbooks:holy"
 		MaxLevel = 3
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "UNCOMMON"
+		MinRarity = "EPIC"
 		ManaCostMultiplier = 1.7
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 45.0
@@ -858,7 +858,7 @@
 		School = "irons_spellbooks:holy"
 		MaxLevel = 5
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
+		MinRarity = "UNCOMMON"
 		ManaCostMultiplier = 1.3
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 15.0
@@ -880,7 +880,7 @@
 		School = "irons_spellbooks:holy"
 		MaxLevel = 5
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
+		MinRarity = "RARE"
 		ManaCostMultiplier = 2.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 35.0
