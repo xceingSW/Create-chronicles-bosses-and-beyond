@@ -83,21 +83,25 @@ ServerEvents.tags('item', event => {
 ServerEvents.tags('block', event => {
     event.add("ftbchunks:interact_whitelist", ['#minecraft:doors','create_things_and_misc:card_reader','refurbished_furniture:post_box','numismatics:blaze_banker','create:contraption_controls',"numismatics:andesite_depositor", "numismatics:brass_depositor", "numismatics:bank_terminal", "numismatics:vendor"]);
 })
- /*ServerEvents.tags("entity_type", (event) => {
-    event.add("ars_nouveau:drygmy_blacklist", [/minecraft:.+/]);
-    event.add("ars_nouveau:drygmy_blacklist", [/cataclysm:.+/]);
-    event.add("ars_nouveau:drygmy_blacklist", ["artifacts:mimic"]);
-    event.add("ars_nouveau:drygmy_blacklist", [/iceandfire:.+/]);
-    event.add("ars_nouveau:drygmy_blacklist", [/graveyard:.+/]);
-    event.add("ars_nouveau:drygmy_blacklist", [/bosses_of_mass_destruction:.+/]);
-    event.add("ars_nouveau:drygmy_blacklist", [/twilightforest:.+/]);
-    event.add("ars_nouveau:drygmy_blacklist", [/irons_spellbooks:.+/]);
-    event.add("ars_nouveau:drygmy_blacklist", [/mutantmonsters:.+/]);
-    event.add("ars_nouveau:drygmy_blacklist", [/alexscaves:.+/]);
-    event.add("ars_nouveau:drygmy_blacklist", [/aether:.+/]);
-    event.add("ars_nouveau:drygmy_blacklist", [/blue_skies:.+/]);
-    event.add("ars_nouveau:drygmy_blacklist", [/aquamirae:.+/]);
-    event.add("ars_nouveau:drygmy_blacklist", [/conjurer_illager:.+/]);
-    event.add("ars_nouveau:drygmy_blacklist", [/aquamirae:.+/]);
-    event.add("ars_nouveau:drygmy_blacklist", [/aquamirae:.+/]);
-  });*/
+
+ServerEvents.tags('block', event => {
+  const bannedBlocks = [
+    "molten_vents:dormant_molten_asurine",
+    "molten_vents:active_molten_asurine",
+    "molten_vents:dormant_molten_veridium",
+    "molten_vents:active_molten_veridium",
+    "molten_vents:dormant_molten_crimsite",
+    "molten_vents:active_molten_crimsite",
+    "molten_vents:dormant_molten_orchrum",
+    "molten_vents:active_molten_orchrum",
+    "molten_vents:dormant_molten_scorchia",
+    "molten_vents:active_molten_scorchia",
+    "molten_vents:dormant_molten_scoria",
+    "molten_vents:active_molten_scoria",
+    "molten_vents:dormant_molten_potassic",
+    "molten_vents:active_molten_potassic",
+    "molten_vents:dormant_molten_battery",
+    "molten_vents:active_molten_battery"
+  ]
+  event.add('c:relocation_not_supported', bannedBlocks)
+})
